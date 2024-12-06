@@ -41,3 +41,13 @@ body {
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
+
+.luz {
+    cursor: pointer;
+    transform: translateY(4px);
+}
+
+.luz:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
